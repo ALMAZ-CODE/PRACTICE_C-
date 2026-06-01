@@ -1,0 +1,19 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.inlineSuggest.showToolbar": "never",
+    "editor.suggest.selectionMode": "never",
+    "editor.quickSuggestions": {
+
+
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.cycle": false,
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.enabled": false,
+    "C_Cpp.errorSquiggles": "disabled"
+}
