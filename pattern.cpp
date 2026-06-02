@@ -4,15 +4,12 @@ int main(){
     int (n);
 cout<<"Enter your number: ";
 cin>>n;
-int num=1 ;
-for (int i = 0;n>i;i++){
-    for(int k =0;i>k;k++){
-        cout<<" ";}
-    for(int j=n;i<j;j--){
-        cout<< num;
+for(int i =0;n>i;i++){
+    for(int j =1;j<i+2;j++){
+        cout<<j<<" ";}
+    for(int k =0;k<n-i;k++){
+        cout<<" ";
     }
-    num++;
-        cout << "\n";
 }
 return 0;
 }
