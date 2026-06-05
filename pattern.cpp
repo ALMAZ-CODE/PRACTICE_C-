@@ -1,16 +1,38 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int (n);
+int main(){     
+int (n);
 cout<<"Enter your number: ";
 cin>>n;
-for(int i =0;n>i;i++){
-    for(int k =0;k<n-i;k++){
+// TOP 
+for (int i =0 ;n>i;i++){
+    for(int j =1;n-i>j;j++){
         cout<<" ";}
-    for(int j =1;j<i+2;j++){
-        cout<<j;}
-    for(int l=i;l>0;l--){
-        cout<<l;}
-cout<<"\n";}
-return 0;
+
+cout<<"*";
+
+if(i!=0){
+for(int j=0;2*i-1>j;j++){
+    cout<<" ";}
+cout<<"*";}
+cout<<endl;
+}
+
+
+//  BOTTOM 
+for(int i =0;n-1>i;i++){
+    for(int j=0;i+1>j;j++){
+        cout<<" ";}
+cout<<"*";
+
+    if (i!=n-2){
+    for(int j =0;2*(n-i-2)-1>j;j++){
+        cout<<" ";}
+    cout<<"*";
+    }
+cout<<endl;
+
+}
+
+return 0; 
 }
